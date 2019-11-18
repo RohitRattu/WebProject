@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>-->
+    <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.css" />
+</head>
+<body>
+    <div>
+        <nav class="navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Baking Recipes</a>
+                </div>
+                <center>
+                    <a asp-action="Index">Home</a>
+                    <a asp-action="InsertPage">Add Recipe</a>
+                    <a asp-action="DataPage">View Recipes</a>
+                </center>
+            </div>
+        </nav>
+        <br />
+        <!--<center><img src="~/images/homeBaking.jpg" /></center>-->
+        <br />
+        <h2>About</h2>
+        <br />
+        Welcome to baking recipes! Here, you will be able to enter your own recipes, as well as give a rating on existing recipes. Of course, you will also be able to view
+        details of each listed recipe.
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿@model RecipeAssignment.Models.Recipe
+@{
+    ViewData["Title"] = "UserPage";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Baking Recipes</a>
+                </div>
+                <center>
+                    <a asp-action="Index">Home</a>
+                    <a asp-action="InsertPage">Add Recipe</a>
+                    <a asp-action="DataPage">View Recipes</a>
+                </center>
+            </div>
+        </nav>
+        <br />
+        <form class="p-a-1" asp-action="UserPage" method="post">
+            <p>
+                <div class="form-group">
+                    <label asp-for="RatingReview">Your Thoughts on the Recipe:</label>
+                    <input class="form-control" asp-for="RatingReview" />
+                </div>
+            </p>
+            <p>
+                <div class="form-group">
+                    <select class="form-control" name="Rating">
+                        <option value="1">1 Star</option>
+                        <option value="2">2 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="5">5 Stars</option>
+                    </select>
+                </div>
+            </p>
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit">Submit Rating</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

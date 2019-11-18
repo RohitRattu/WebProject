@@ -1,0 +1,11 @@
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\bin\Debug\netcoreapp2.0\RecipeAssignment.deps.json
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\bin\Debug\netcoreapp2.0\RecipeAssignment.runtimeconfig.json
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\bin\Debug\netcoreapp2.0\RecipeAssignment.runtimeconfig.dev.json
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\bin\Debug\netcoreapp2.0\RecipeAssignment.dll
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\obj\Debug\netcoreapp2.0\RecipeAssignment.csprojAssemblyReference.cache
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\obj\Debug\netcoreapp2.0\RecipeAssignment.csproj.CoreCompileInputs.cache
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\obj\Debug\netcoreapp2.0\RecipeAssignment.AssemblyInfoInputs.cache
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\obj\Debug\netcoreapp2.0\RecipeAssignment.AssemblyInfo.cs
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\bin\Debug\netcoreapp2.0\RecipeAssignment.pdb
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\obj\Debug\netcoreapp2.0\RecipeAssignment.dll
+C:\Users\rohit\Desktop\RecipeAssignment\RecipeAssignment\RecipeAssignment\obj\Debug\netcoreapp2.0\RecipeAssignment.pdb

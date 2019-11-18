@@ -1,0 +1,50 @@
+﻿@model IEnumerable<RecipeAssignment.Models.Recipe>
+@{ 
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Baking Recipes</a>
+                </div>
+                <center>
+                    <a asp-action="Index">Home</a>
+                    <a asp-action="InsertPage">Add Recipe</a>
+                    <a asp-action="DataPage">View Recipes</a>
+                </center>
+            </div>
+        </nav>
+        <br />
+        <h1>List of Recipes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Recipe Name</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (RecipeAssignment.Models.Recipe r in Model)
+                {
+                <tr>
+                    <td><a asp-action="DisplayPage">@r.RecipeName</a></td>
+                    <td>@r.Rating</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

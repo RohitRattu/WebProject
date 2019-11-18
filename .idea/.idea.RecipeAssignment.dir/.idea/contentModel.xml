@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\301032831\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\301032831\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\301032831\Downloads\Comp229-301032831-Assign03-v1\RecipeAssignment" t="IncludeRecursive">
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="RecipeController.cs" t="Include" />
+      </e>
+      <e p="libman.json" t="Include" />
+      <e p="Migrations" t="Include">
+        <e p="20191114021132_Initial.cs" t="Include" />
+        <e p="20191114021132_Initial.Designer.cs" t="Include" />
+        <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="ApplicationDbContext.cs" t="Include" />
+        <e p="EFRecipeRepo.cs" t="Include" />
+        <e p="IRecipeRepo.cs" t="Include" />
+        <e p="Recipe.cs" t="Include" />
+        <e p="SeedData.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="RecipeAssignment.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="README.md" t="Include" />
+      <e p="RecipeAssignment.csproj" t="IncludeRecursive" />
+      <e p="Startup.cs" t="Include" />
+      <e p="Views" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Recipe" t="Include">
+          <e p="DataPage.cshtml" t="Include" />
+          <e p="DisplayPage.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="InsertPage.cshtml" t="Include" />
+          <e p="UserPage.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+          <e p="AddRecipe.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="wwwroot" t="Include">
+        <e p="lib" t="Include">
+          <e p="twitter-bootstrap" t="Include">
+            <e p="css" t="Include">
+              <e p="bootstrap-grid.css" t="Include" />
+              <e p="bootstrap-grid.css.map" t="Include" />
+              <e p="bootstrap-grid.min.css" t="Include" />
+              <e p="bootstrap-grid.min.css.map" t="Include" />
+              <e p="bootstrap-reboot.css" t="Include" />
+              <e p="bootstrap-reboot.css.map" t="Include" />
+              <e p="bootstrap-reboot.min.css" t="Include" />
+              <e p="bootstrap-reboot.min.css.map" t="Include" />
+              <e p="bootstrap.css" t="Include" />
+              <e p="bootstrap.css.map" t="Include" />
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="bootstrap.bundle.js" t="Include" />
+              <e p="bootstrap.bundle.js.map" t="Include" />
+              <e p="bootstrap.bundle.min.js" t="Include" />
+              <e p="bootstrap.bundle.min.js.map" t="Include" />
+              <e p="bootstrap.js" t="Include" />
+              <e p="bootstrap.js.map" t="Include" />
+              <e p="bootstrap.min.js" t="Include" />
+              <e p="bootstrap.min.js.map" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
