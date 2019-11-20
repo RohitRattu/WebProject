@@ -1,19 +1,18 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\301032831\\Downloads\\Comp229-301032831-Assign03-v1\\RecipeAssignment\\RecipeAssignment.csproj",
+    "projectUniqueName": "/Users/abhi/RiderProjects/WebProject/RecipeAssignment.csproj",
     "projectName": "RecipeAssignment",
-    "projectPath": "C:\\Users\\301032831\\Downloads\\Comp229-301032831-Assign03-v1\\RecipeAssignment\\RecipeAssignment.csproj",
-    "outputPath": "C:\\Users\\301032831\\Downloads\\Comp229-301032831-Assign03-v1\\RecipeAssignment\\obj\\",
+    "projectPath": "/Users/abhi/RiderProjects/WebProject/RecipeAssignment.csproj",
+    "outputPath": "/Users/abhi/RiderProjects/WebProject/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.0"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {

@@ -16,7 +16,7 @@ namespace RecipeAssignment.Controllers
             repository = repo;
         }*/
 
-        public ViewResult Index()
+        public IActionResult Index()
         {
             return View();
         }

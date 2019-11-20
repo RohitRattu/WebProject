@@ -25,7 +25,7 @@ namespace RecipeAssignment
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                 Configuration["Data:RecipeWebsite:ConnectionString"]));
-            services.AddTransient<IRecipeRepo, EFRecipeRepo>();
+            services.AddTransient<IRecipeRepo, FakeRecipeRepo>();
             services.AddMvc();
         }
 
@@ -35,12 +35,7 @@ namespace RecipeAssignment
             app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
             app.UseStatusCodePages();
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                name: "default",
-                template: "{controller=Recipe}/{action=Index}/{id?}");
-            });
+            app.UseMvcWithDefaultRoute();
             SeedData.EnsurePopulated(app);
         }
     }
